@@ -1,0 +1,25 @@
+# Site settings
+title: First Class & More
+locale: de
+partner:
+  name: first-class-and-more
+  link: #
+
+description: "Ein paradiesischer Urlaub unter kanarischen Palmen, Wellnessgenuss in den Bayerischen Alpen oder doch lieber ein Abenteuer im charmanten Stockholm? Spätestens in 2021 können Sie sich jeden Reisetraum erfüllen, der in diesem Jahr Ihr Herz erobert hat."
+
+
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/coupon/2020/first-class-and-more-100" # the subpath of your site, e.g. /blog/
+img:     "/de/coupon/2020/first-class-and-more-100/_assets/img"
+css:     "/de/coupon/2020/first-class-and-more-100/_assets/css"
+js:      "/de/coupon/2020/first-class-and-more-100/_assets/js"
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed
